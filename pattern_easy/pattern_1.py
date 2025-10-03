@@ -17,5 +17,5 @@ class Solution:
 # you might also return the pattern string if not asked to print eg. 
 
 '''
-return '\n'.join('*' * n for _ in range(1, n+1))
+return '\n'.join(['*' * n for _ in range(1, n+1)])
 '''
