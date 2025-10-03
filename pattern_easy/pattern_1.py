@@ -19,3 +19,21 @@ class Solution:
 '''
 return '\n'.join(['*' * n for _ in range(1, n+1)])
 '''
+
+
+'''
+Step-by-step logic:
+
+1. Loop from 1 to n:
+   → For each line, print n stars.
+
+2. '*' * n creates a string with n asterisks.
+
+3. Print that string n times to form an n x n square.
+
+4. Example for n=3:
+   '***'
+   '***'
+   '***'
+'''
+
