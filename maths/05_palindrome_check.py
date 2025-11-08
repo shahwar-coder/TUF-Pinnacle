@@ -30,3 +30,13 @@ class Solution:
         if n==0:
             return True
         return str(n)==str(n)[::-1]
+
+# === This is also good ===
+
+# class Solution:
+#     def isPalindrome(self, n):
+#         if n<0:
+#             return False
+#         if n==0:
+#             return True
+#         return str(n)=="".join(reversed(str(n)))
